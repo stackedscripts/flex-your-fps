@@ -41,7 +41,7 @@ local function send(...)
 	}), Enum.HttpContentType.ApplicationJson)
 end
 
--- generate a rando number
+-- generate a random number
 local random = setmetatable({}, {
 	__call = function()
 		return math.random() * math.random(1, 100) / 1000
